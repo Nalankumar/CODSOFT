@@ -9,7 +9,7 @@
 
 header{
     background: black;
-    background-image: url("/Landing\ page/src/bg2.jpg");
+    background-image: url("/Landing\ page/src/bg.jpg");
     background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.3)),url("/Landing page/src/bg2.jpg");
     width: 100vw;
     background-repeat: no-repeat;

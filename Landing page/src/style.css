@@ -7,11 +7,8 @@
     color: white;
 }
 
-
-/* linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), */
 .hero-section{
     background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("./bg.jpg");
-    /* background: rgba(0,0,0,0.3); */
     width: 100vw;
     background-repeat: no-repeat;
     height: 100vh;
@@ -54,6 +51,7 @@ header nav{
     padding-top: 50px;
     font-size: 50px;
     padding: 20px;
+    font-family: cursive;
 }
 .quote{
     padding: 15px;
@@ -62,10 +60,6 @@ header nav{
     color: white;
 }
 
-img{
-    height: 20px;
-    width: 20px;
-}
 .visit{
     margin: 15px;
     width: 150px;
@@ -80,18 +74,21 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to top, #ECB159, #B67352);
 }
+
 .cards{
     width: 70vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .card{
     width: 250px;
     aspect-ratio: 9/15;
     margin: 2vh;
-    background-color: black;
+    background-color: rgba(255,255,255,0.2);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -100,28 +97,41 @@ img{
 }
 
 #hp{
-    background-image: url("./hp.jpg");
     background-size: cover;
     background-repeat: none;
     background-position: fixed;
     background-position-x: center;
 }
+
 #wap{
-    background-image: url("./wap.jpg");
     background-size: cover;
     background-repeat: none;
     background-position: fixed;
     background-position-x: center;
 
 }
+
 #dune{
-    background-image: url("./dune.jpg");
     background-size: cover;
     background-repeat: none;
     background-position: fixed;
     background-position-x: center;
 }
+
 .heading{
     color: black;
     padding-block: 50px;
+}
+
+.poster{
+    width: 70%;
+    height: 60%;
+    margin-bottom: 10px;
+}
+
+.book-name{
+    font-size: 1rem;
+    padding: 5px;
+    color: black;
+
 }

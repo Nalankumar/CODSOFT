@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    color: white;
+}
+
+
+
+body{
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+nav{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul li{
+    padding-inline: 2vw;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.homepage-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profile{
+    border-radius: 25px;
+    margin-top: 25px;
+
+}
+/* Projects */
+
+
+#projects {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .project-card {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between cards */
+  }
+  
+  .project {
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+  }
+
+/* skills */
+
+#skills {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill i {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .skill span {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .skill a {
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
+  }
+  .skill-card {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .skill a:hover {
+    text-decoration: underline;
+  }
+
+/* contact */
+#contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .contact-card {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: grey;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
